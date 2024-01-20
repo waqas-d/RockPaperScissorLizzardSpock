@@ -1,0 +1,285 @@
+.navBg {
+    background-color: #84B817;
+}
+.navbar-brand {
+    font-family: 'Capriola', sans-serif;
+}
+.navMenu {
+    display: flex;
+    justify-content: right;
+    font-family: 'Capriola', sans-serif;
+
+}
+.homeNavMenu {
+    text-decoration: underline;
+}
+.homePageBg{
+    width: 100%;
+
+}
+.homePgBtns {
+    position: relative;
+}
+.homePlayBtn {
+    position: absolute;
+    top: 25%;
+    left: 42%;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 60px;
+    font-size: 26px;
+    font-family: 'Capriola', sans-serif;
+    background-color: #1791B8;
+    opacity: 0.6;
+}
+
+.homeRulesBtn {
+    position: absolute;
+    top: 32%;
+    left: 42%;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 60px;
+    font-size: 26px;
+    font-family: 'Capriola', sans-serif;
+    background-color: #1791B8;
+    opacity: 0.6;
+}
+
+.gmNavMenu{
+    text-decoration: underline;
+}
+/* 
+.page2BgImg {
+    position: relative;
+} */
+#gmPage2BgImg{
+    background-image: url('../Assets/Paper-unsplash.jpg');
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+/* .gameModeBg{
+    width: 100%;
+} */
+.gmOptions{
+    text-align: center;
+    font-family: 'Capriola', sans-serif;
+}
+.pg2ModeBtns {
+   /* margin-top: 200px;
+   margin-left: 150px; */
+   padding-top: 200px;
+   padding-left: 100px;
+}
+#gameModeOptions{
+    color: white;
+    margin-top: 400px;
+}
+.pg2OpponentBtns {
+   padding-right: 100px;
+   padding-top: 200px;
+   width: 400px;
+}
+
+#easyBtn {
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+    font-size: 24px;
+    font-family: 'Capriola', sans-serif;
+    background-color: #84B817;
+    opacity: 0.6;
+}
+#mediumBtn {
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+    font-size: 24px;
+    font-family: 'Capriola', sans-serif;
+    background-color: #84B817;
+    opacity: 0.6;
+}
+#hardBtn {
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+    font-size: 24px;
+    font-family: 'Capriola', sans-serif;
+    background-color: #84B817;
+    opacity: 0.6;
+}
+.oneVOneBtn{
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+    font-size: 24px;
+    font-family: 'Capriola', sans-serif;
+    background-color: #84B817;
+    opacity: 0.6;
+}
+.oneVCpuBtn {
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+    font-size: 24px;
+    font-family: 'Capriola', sans-serif;
+    background-color: #84B817;
+    opacity: 0.6;
+}
+.grGameRulesBtn{
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+    font-size: 24px;
+    font-family: 'Capriola', sans-serif;
+    background-color: #1791B8;
+    opacity: 0.6;
+}
+.gameRulesBtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.grNavMenu{
+    text-decoration: underline;
+}
+
+.gameRulesBg{
+    width: 100%;
+}
+.gameRulesBgBox{
+    position: absolute;
+    top: 30%;
+    left: 18%;
+    background-color: #EEA6EB;
+    opacity: 0.6;
+    font-family: 'Capriola', sans-serif;
+    height: 450px;
+    text-align: center;
+}
+.grPlayGameBtn{
+    position: absolute;
+    top: 90%;
+    left: 42%;
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+    font-size: 24px;
+    font-family: 'Capriola', sans-serif;
+    background-color: #1791B8;
+    opacity: 0.6;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.gmGameModeBtn {
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 60px;
+    font-size: 24px;
+    font-family: 'Capriola', sans-serif;
+    background-color: #1791B8;
+    opacity: 0.6;
+}
+
+.player1Btns{
+    position: absolute;
+    top: 30%;
+    right: 20%;
+    text-align: center;
+}
+.player2Btns {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    text-align: center;
+}
+.gmDirections{
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    /* font-family: 'Capriola', sans-serif; */
+}
+#gmDirectionsTxt{
+    color: white;
+}
+.oneVOneBtns {
+    font-family: 'Capriola', sans-serif;
+}
+.rockBtn{
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+    font-size: 24px;
+    font-family: 'Capriola', sans-serif;
+    background-color: #84B817;
+    opacity: 0.6;
+}
+.paperBtn{
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+    font-size: 24px;
+    font-family: 'Capriola', sans-serif;
+    background-color: #84B817;
+    opacity: 0.6;
+}
+.scissorBtn{
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+    font-size: 24px;
+    font-family: 'Capriola', sans-serif;
+    background-color: #84B817;
+    opacity: 0.6;
+}
+.lizardBtn{
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+    font-size: 24px;
+    font-family: 'Capriola', sans-serif;
+    background-color: #84B817;
+    opacity: 0.6;
+
+}
+.spockBtn{
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+    font-size: 24px;
+    font-family: 'Capriola', sans-serif;
+    background-color: #84B817;
+    opacity: 0.6;
+}
+
+.scoreInfo{
+    position: absolute;
+    top: 30%;
+    left: 33%;
+    font-family: 'Capriola', sans-serif;
+    text-align: center;
+    color: white;
+}
