@@ -33,4 +33,6 @@ https://scottsrpsls.azurewebsites.net/api/RockPaperScissors/GetRandomOption
 
 https://rpslsapi.azurewebsites.net/RPSLS
 
-Peer reviewed by: 
+Peer reviewed by: Zahid Afsar
+
+Peer Comment : Looks good so far the html and css look nice. Your code functions well for when I picked a gamemode and easy , medium , and hard level. I have a couple of suggestions: First is to make the buttons on the 1v1 and 1vCpu work beacuse they dont do anything when clicked. Another suggestion is to have the html clear itself when clicked on a button because when I click hard mode then click medium mode the text that says you selected hard mode stays while the one that says medium mode is displayed under it. Other than that you should be good after those suggestions
